@@ -1,0 +1,54 @@
+/* Dashboard.css */
+.container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .card {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  input {
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .btn {
+    border-radius: 8px;
+  }
+  
+  .btn-primary {
+    background: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background: #0056b3;
+  }
+  
+  .btn-success {
+    background: #28a745;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background: #218838;
+  }
+  
+  .list-group-item {
+    background: #f8f9fa;
+    border-radius: 6px;
+    margin-top: 5px;
+  }
