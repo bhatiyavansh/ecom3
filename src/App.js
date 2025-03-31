@@ -5,6 +5,7 @@ import Signup from './Signup';
 import BuyDashboard from './BuyDashboard';
 import SellerDashboard from './SellerDashboard';
 import Selection from './Selection';
+import Test from './Test';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/buyerdashboard" element={<BuyDashboard />} />
         <Route path="/sellerdashboard" element={<SellerDashboard />} />
         <Route path="/selection" element={<Selection />} />
+        <Route path="/test" element={<Test />} />
       </Routes>
     </Router>
   );
