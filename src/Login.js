@@ -126,7 +126,7 @@ function Login() {
 
     if (storedUser && storedUser.email === email && storedUser.password === password) {
       alert("Login Successful!");
-      navigate('/dashboard');  
+      navigate('/selection');  
     } else {
       alert("Invalid Email or Password!");
     }
@@ -166,7 +166,7 @@ function Login() {
                 id="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder="••••••••" 
+                placeholder="•••••••••••••" 
                 style={{
                   ...styles.input,
                   ...(inputFocus.password ? styles.inputFocus : {})
